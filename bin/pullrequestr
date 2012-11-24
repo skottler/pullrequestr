@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+require 'pullrequestr'
+
+Pullrequestr::Testing.load_config(".pullrequestr.yml")
+Pullrequestr::Testing.run()
