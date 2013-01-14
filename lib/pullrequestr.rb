@@ -1,5 +1,5 @@
 require 'pullrequestr/version'
-require 'pullrequestr/testing'
+require 'pullrequestr/github'
 
 module Pullrequestr
   class << self

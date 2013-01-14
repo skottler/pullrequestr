@@ -3,5 +3,5 @@
 require 'yaml'
 require 'pullrequestr'
 
-Pullrequestr::Testing.load_config(".pullrequestr.yml")
-Pullrequestr::Testing.run()
+Pullrequestr::Github.load_config('.pullrequestr.yml')
+Pullrequestr::Github.run()

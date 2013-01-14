@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = 'sam@kottlerdevelopment.com'
   s.files       = %w( README.md LICENSE )
 
-  s.add_dependency 'httparty'
+  s.add_dependency 'rest-client'
 
   s.files       += Dir.glob("lib/**/*")
   s.files       += Dir.glob("bin/**/*")
